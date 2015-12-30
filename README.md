@@ -1,0 +1,2 @@
+# .config
+DotConfig for SASS
