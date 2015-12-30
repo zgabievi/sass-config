@@ -1,0 +1,22 @@
+{
+  "name": "sass-config",
+  "version": "0.1.0",
+  "description": "DotConfig for SASS",
+  "main": "_config.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgabievi/sass-config.git"
+  },
+  "keywords": [
+    "dot-config",
+    "sass",
+    "scss",
+    "config"
+  ],
+  "author": "zgabievi <zura.gabievi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zgabievi/sass-config/issues"
+  },
+  "homepage": "https://github.com/zgabievi/sass-config#readme"
+}

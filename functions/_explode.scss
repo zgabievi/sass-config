@@ -1,0 +1,32 @@
+/**
+ * Explode string delimetered with "."
+ */
+@function explode($string) {
+    $result: ();
+    $length: str-length($string);
+    
+    @if str-length(".") == 0 {
+        @for $i from 1 through $length {
+            $result: append($result, str-slice($string, $i, $i));
+        }
+        
+        @return $result;
+    }
+    
+    $running: true;
+    $remaining: $string;
+    
+    @while $running {
+        $index: str-index($remaining, ".");
+        
+        @if $index {
+            $slice: str-slice($remaining, 1, $index - 1);
+            $result: append($result, $slice);
+            $remaining: str-slice($remaining, $index + str-length("."));
+        } @else {
+            $running: false;
+        }
+    }
+    
+    @return append($result, $remaining);
+}

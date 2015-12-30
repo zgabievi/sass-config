@@ -1,0 +1,13 @@
+/**
+ * Return config value
+ */
+@function config($key) {
+    $value: $config-storage;
+    $keys: explode($key);
+    
+    @each $key in $keys {
+        $value: map-get($value, $key);
+    }
+    
+    @return $value;
+}

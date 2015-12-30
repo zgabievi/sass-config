@@ -1,0 +1,17 @@
+{
+  "name": "sass-config",
+  "description": "DotConfig for SASS",
+  "main": "_config.scss",
+  "authors": [
+    "zgabievi <zura.gabievi@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dot-config",
+    "sass",
+    "scss",
+    "config"
+  ],
+  "homepage": "https://github.com/zgabievi/sass-config.git",
+  "private": true
+}

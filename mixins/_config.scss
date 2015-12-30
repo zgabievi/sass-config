@@ -1,0 +1,11 @@
+/**
+ * Set config options
+ */
+@mixin config($key, $options: ()) {
+    $config-storage: map-merge(
+        $config-storage,
+        (
+            $key: $options            
+        )
+    ) !global;
+}
