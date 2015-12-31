@@ -3,7 +3,7 @@
  */
 @function config($key) {
     $value: $config-storage;
-    $keys: explode($key);
+    $keys: explode($key, ".");
     
     @each $key in $keys {
         $value: map-get($value, $key);
