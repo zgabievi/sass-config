@@ -1,6 +1,6 @@
 # sass-config
 
-[![sass-config](http://i.imgsafe.org/b099f17.jpg)](https://github.com/zgabievi/sass-config)
+[![sass-config](http://i.imgsafe.org/c0c6cf7.jpg)](https://github.com/zgabievi/sass-config)
 
 [![Bower](https://img.shields.io/bower/v/zgabievi/sass-config.svg?style=flat-square)](http://bower.io/search/?q=sass-config)
 [![NPM](https://img.shields.io/npm/v/sass-config.svg?style=flat-square)](https://www.npmjs.com/package/sass-config)
