@@ -60,4 +60,4 @@ $config-example2: (
 ```
 
 ## License
-The BEM package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The sass-config package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
