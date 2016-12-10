@@ -1,13 +1,37 @@
-/**
- * Return config value
- */
+@charset "UTF-8";
+
+/// Get configuration value using dot notated key.
+///
+/// @access public
+///
+/// @param {String} $key - Dot notated key that will be used to search value in config storage
+///
+/// @returns {mixed} - Value of stored configuration
+///
+/// @example scss - Usage
+///     .c-button {
+///         color: config('color.primary');
+///     }
+///
+///     .c-button {
+///         padding: config('spacing.inner.large');
+///     }
+///
+/// @example css - Output
+///     .c-button {
+///         color: black;
+///     }
+///
+///     .c-button {
+///         padding: 2em;
+///     }
+
 @function config($key) {
-    $value: $config-storage;
-    $keys: explode($key, ".");
-    
-    @each $key in $keys {
-        $value: map-get($value, $key);
-    }
-    
-    @return $value;
+  $value: $config-storage;
+  
+  @each $key in explode($key, '.') {
+    $value: map-get($value, $key);
+  }
+  
+  @return $value;
 }

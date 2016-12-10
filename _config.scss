@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
+// Storage
 $config-storage: () !default;
 
-@import "functions/config";
+// Mixins
 @import "mixins/config";
+
+// Functions
+@import "functions/explode";
+@import "functions/config";
