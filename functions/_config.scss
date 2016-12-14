@@ -30,7 +30,9 @@
   $value: $config-storage;
   
   @each $key in explode($key, '.') {
-    $value: map-get($value, $key);
+    @if type-of($value) == 'map' {
+      $value: map-get($value, $key);
+    }
   }
   
   @return $value;
