@@ -1,5 +1,7 @@
 # sass-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zgabievi/sass-config.svg)](https://greenkeeper.io/)
+
 [![sass-config](https://i.imgsafe.org/fbbe4c7bb5.png)](https://github.com/zgabievi/sass-config)
 
 [![Bower](https://img.shields.io/bower/v/zgabievi/sass-config.svg?style=flat-square)](http://bower.io/search/?q=sass-config)
